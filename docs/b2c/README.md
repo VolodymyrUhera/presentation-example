@@ -1,6 +1,6 @@
-# FlowState Investor Pitch Deck — Strategy & Rationale
+# Mira Investor Pitch Deck — Strategy & Rationale
 
-This document explains why this deck is structured the way it is, why each slide contains the specific content it does, and the strategic decisions behind the design and narrative.
+This document explains why the B2C version of this deck is structured the way it is, why each slide contains specific content, and the strategic decisions behind the design and narrative for a consumer-facing product.
 
 ---
 
@@ -8,321 +8,296 @@ This document explains why this deck is structured the way it is, why each slide
 
 ### Why 15 Slides?
 
-The old startup rule was "10 slides max." That rule is dead. In 2026, investors spend roughly **2 minutes 42 seconds** on an initial deck review and make a meeting decision within the **first 4 slides**. A 10-slide deck is now considered too thin to convey real substance; 20+ slides signals that the founder cannot edit. **15 slides is the new consensus sweet spot** — enough depth to answer the key questions, short enough to respect attention spans.
+Investors spend roughly **2 minutes 42 seconds** on an initial deck review. A 10-slide deck is too thin for B2C — consumer metrics require more explanation (retention curves, viral loops, channel CAC). A 20+ slide deck signals poor editing. **15 slides is the consensus sweet spot** for B2C, providing enough depth to explain user behavior and acquisition loops.
 
-The appendix slides (financial model, cap table, competitive deep-dive, technical architecture) are kept out of the main flow but prepared for Q&A. This signals professionalism without cluttering the narrative.
+### Narrative Arc: The "Prove the Loop" Structure
 
-### Narrative Arc: The "Prove It" Structure
-
-This deck follows a proven narrative arc that mirrors how investors actually think:
+B2C investors pattern-match on growth loops. This deck follows an arc that proves the loop before asking for money:
 
 | Phase | Question in Investor's Mind | Slide(s) |
 |-------|------------------------------|----------|
-| **Hook** | "Why should I care?" | Slide 1 |
-| **Problem** | "Is this a real, painful problem?" | Slide 2 |
-| **Solution** | "Does this actually solve it?" | Slide 3 |
-| **Timing** | "Why now and not 3 years ago?" | Slide 4 |
-| **Scale** | "Is this a big enough opportunity?" | Slide 5 |
-| **Economics** | "Can this make money?" | Slide 6 |
-| **Proof** | "Are customers actually buying?" | Slide 7 |
-| **Product** | "Does the product work?" | Slide 8 |
-| **Defensibility** | "Why won't someone else win?" | Slide 9 |
-| **Distribution** | "How do you acquire customers?" | Slide 10 |
-| **People** | "Can this team execute?" | Slide 11 |
+| **Hook** | "Why would millions of people use this?" | Slide 1 |
+| **Problem** | "Is this a real daily pain?" | Slide 2 |
+| **Solution** | "Does this solve it instantly?" | Slide 3 |
+| **Timing** | "Why hasn't this worked before?" | Slide 4 |
+| **Scale** | "Can this get to millions of users?" | Slide 5 |
+| **Economics** | "Can this make money at scale?" | Slide 6 |
+| **Proof** | "Are people actually using it?" | Slide 7 |
+| **Product** | "Does the experience delight?" | Slide 8 |
+| **Defensibility** | "Why won't Instagram copy this?" | Slide 9 |
+| **Distribution** | "How do you acquire users profitably?" | Slide 10 |
+| **People** | "Can this team build viral consumer products?" | Slide 11 |
 | **Plan** | "What happens with my money?" | Slides 12–13 |
-| **Ambition** | "Is this a feature or a company?" | Slide 14 |
+| **Ambition** | "Is this a feature or a platform?" | Slide 14 |
 | **Close** | "What is the next step?" | Slide 15 |
 
-### The "Lead With Strength" Opening Rule
+### The "Lead With Users" Opening Rule
 
-In 2026, the most effective decks reorder their first 4 slides based on their strongest asset:
-- If traction is explosive → lead with traction (Slide 7 moves to Slide 2)
-- If the team has prior exits → lead with team (Slide 11 moves to Slide 2)
-- If a macro trend is the driver → lead with "Why Now" (Slide 4 moves to Slide 2)
-
-For FlowState, the traction is strong but not explosive, and the team has solid experience. The problem is visceral and well-quantified, so the deck opens with **Problem → Solution** to establish the narrative foundation quickly.
+In B2C, traction is measured in **users and engagement**, not revenue. If MAU is strong, lead with it. If the app has product-market fit signals (high Day-7 retention, viral coefficient >1), lead with those. For Mira, the hook opens with **380K downloads, 145K MAU, and a 4.6★ rating** because social proof and scale are the strongest assets.
 
 ---
 
 ## 2. Slide-by-Slide Rationale
 
 ### Slide 1: Title / Hook
-**"Close Books 4× Faster Without Hiring More Accountants"**
+**"Get Dressed in 90 Seconds With an AI Stylist in Your Pocket"**
 
 **Why this headline?**
-Investors see hundreds of decks. A headline that states a concrete customer outcome (4× faster) instantly communicates value. A feature headline like "AI Reconciliation Platform" forces the investor to do the translation work themselves — most won't.
+B2C headlines must communicate a **personal transformation**. "90 seconds" is a concrete, relatable outcome. A feature headline like "AI-Powered Wardrobe Management App" is forgettable. The investor must instantly imagine themselves (or their target user) benefiting.
 
-**Why the subheadline defines the ICP so narrowly?**
-"50–500 employee companies, finance teams" eliminates ambiguity. Investors hate "everyone is our customer." A narrow ICP signals focus and makes the go-to-market plan credible.
+**Why the subheadline emphasizes "existing wardrobe"?**
+This distinguishes Mira from shopping apps. B2C fashion apps have a reputation for pushing consumption. By highlighting "existing wardrobe," we signal alignment with the sustainability trend and lower user friction (no purchase required to get value).
 
-**Why the credibility bar exists?**
-The metrics (47 customers, $420K ARR, 142% growth) are placed on Slide 1 because investors decide whether to keep reading within seconds. If they see real traction immediately, they are more likely to engage with the rest of the deck. If these numbers were missing, the investor might assume there is nothing to show.
+**Why the credibility bar uses downloads, MAU, and App Store rating?**
+B2C investors look for different signals than B2B:
+- **Downloads** prove top-of-funnel appeal and marketing efficiency
+- **MAU** proves stickiness (not just one-time installs)
+- **App Store rating** (4.6★ with 28K reviews) is social proof that the product actually works
+
+Revenue is not on the title slide because at Seed stage, B2C investors care more about user love than ARR. A 4.6★ rating with high volume is stronger evidence than modest subscription revenue.
 
 ---
 
 ### Slide 2: Problem
-**"Finance teams spend 60% of their time on manual reconciliation"**
+**"The average person wastes 52 hours per year deciding what to wear"**
 
-**Why we quantify the pain?**
-Investors evaluate problems on two dimensions: intensity and universality. "60% of their time" is specific and intense. Vague statements like "finance teams are frustrated" do not create urgency.
+**Why we quantify the pain in hours per year?**
+B2C pain is emotional and daily. "52 hours per year" translates a vague frustration into a tangible time cost that feels personal. It is more relatable than enterprise metrics like "60% of reconciliation time."
 
-**Why we explain why current solutions fail?**
-This is a critical but often missed element. If the problem is real but already solved, there is no opportunity. By stating that ERP add-ons require 6-month implementations, we create the gap that FlowState fills. This bridges Problem → Solution without a jarring transition.
+**Why we include the 81% wardrobe utilization stat?**
+This stat from ClosetMaid does two things: (1) proves the problem is widespread and researched, and (2) sets up the solution — Mira increases wardrobe utilization, which is a measurable outcome.
 
-**Why we name the consequence?**
-"Teams hire expensive consultants or burn out their staff" makes the problem visceral. It moves from abstract statistics to human cost, which is more memorable.
+**Why the consequences are emotional, not financial?**
+- "Morning decision fatigue is a daily source of stress" — emotional pain
+- "Personal stylists cost $200–$500/hour" — economic pain point for the solution gap
+
+B2B problems are measured in dollars lost. B2C problems are measured in stress, wasted time, and aspiration gaps.
 
 ---
 
 ### Slide 3: Solution
-**"FlowState auto-reconciles transactions and flags anomalies before they become errors"**
+**"Mira scans your closet and builds perfect outfits for weather, occasion, and mood"**
 
-**Why the solution is described as an outcome, not a feature list?**
-Investors do not fund features; they fund outcomes. "Auto-reconciles transactions" is what the product does. "Close in 2–3 days instead of 8–12" is why the customer pays. The latter is what matters for the pitch.
+**Why we focus on speed and context?**
+B2C users have zero patience. "90 seconds" signals instant gratification. "Weather, occasion, and mood" shows the AI understands context, not just color matching — this is differentiation from simple closet apps.
 
-**Why we contrast setup time with the problem?**
-Slide 2 established that current solutions take 6 months to implement. Slide 3 counters with "10 minutes." This one-two punch is powerful because it is not just faster — it is a different category of product (instant vs. enterprise deployment).
-
-**Why we include an accuracy metric?**
-Finance is a trust-based function. A 99.3% accuracy metric reduces the perceived risk of adopting AI in a conservative domain.
+**Why the before/after is "52 hours → 0"?**
+In B2B, the before/after is typically process duration (8 days → 2 days). In B2C, it is personal time reclaimed. "0" is aspirational — the user never has to think about it again. This emotional payoff is more compelling for consumer investors.
 
 ---
 
 ### Slide 4: Why Now
-**"Three converging forces make this the moment"**
+**"Three forces make AI personal styling inevitable"**
 
-**Why this slide exists at all?**
-Investors are pattern-matching machines. They have seen thousands of "great ideas" that failed because the timing was wrong. This slide answers the inevitable question: "Why hasn't someone done this before?" It transforms the pitch from "we had an idea" to "the world just changed, and we are the first to exploit it."
+**Why this slide is critical for B2C?**
+Consumer apps often fail because they are too early — users are not ready to adopt a new behavior. This slide proves the behavior is already trained (camera-first) and the technology is ready (on-device AI vision).
 
-**Why three forces?**
-One force looks like luck. Two looks like coincidence. Three converging forces looks like inevitability. The combination of talent shortage (persistent), API maturity (recent), and AI readiness (recent) creates a credible inflection point.
-
-**Why we cite specific sources?**
-"AICPA forecast" and ">99% accuracy" build credibility. Unsourced statistics are a major red flag for investors in 2026, especially with AI-generated decks proliferating.
+**Why the forces are different from B2B?**
+B2B timing forces are typically macro (talent shortage, API maturity, regulation). B2C timing forces are behavioral and technological:
+- **AI Vision Maturity:** Makes real-time garment recognition possible
+- **Sustainability Shift:** Gen Z explicitly wants to consume less — this turns "using what you own" into a trend
+- **Camera-First Behavior:** Users already photograph everything. Uploading a closet is a low-friction habit because TikTok and Instagram trained it
 
 ---
 
 ### Slide 5: Market Size
-**TAM $48B → SAM $12B → SOM $420M**
+**TAM $82B → SAM $18B → SOM $420M**
 
-**Why bottom-up SOM is mandatory?**
-Top-down market size quotes (e.g., "the accounting software market is $48B according to Gartner") are considered lazy and unreliable. Investors prefer bottom-up math because it shows the founder understands their actual sales motion.
+**Why the TAM is consumer fashion tech, not enterprise software?**
+B2C TAMs are typically larger and more intuitive. "$82B global fashion tech" is easy to verify. The key is showing a credible bottom-up path to the SOM.
 
-**Why the SOM reconciles with the financial projections?**
-If Slide 5 says the obtainable market is $420M, but the financial projections show $5.2M ARR in Year 4, that is roughly 1.2% market share. This is plausible. If the SOM were $4B, the same ARR would look like a failure. The SOM grounds the ambition in reality.
+**Why the bottom-up SOM is built from users × ARPU?**
+`2.5M users × $14/mo ARPU × 12 months` is the B2C equivalent of B2B's "reps × quota × win rate." It is testable and forces the founder to think about unit economics from day one.
 
-**Why we use concentric circles?**
-This is the most intuitive visual for market sizing. The eye is drawn to the inner circle (SOM), which is the number that matters most. The outer circles provide context without distraction.
+**Why we mention marketplace commission and brand partnerships as paths to $100M+?**
+B2C subscription businesses alone often cap out. Showing multiple revenue layers (subscription + affiliate marketplace + sponsored collections) proves the founder has thought about monetization depth, not just breadth.
 
 ---
 
 ### Slide 6: Business Model
-**Land-and-expand SaaS with best-in-class unit economics**
+**Freemium SaaS with 85% gross margins and multiple revenue layers**
 
-**Why unit economics are shown before revenue scale?**
-Investors in 2026 care more about "velocity per dollar" than raw growth. A company with $1M ARR and 16:1 LTV:CAC is more interesting than a company with $5M ARR and 3:1 LTV:CAC. Unit economics prove the business model works at small scale before it scales.
+**Why freemium?**
+B2C products must minimize friction to acquisition. A free tier with 3 outfits/day lets users experience value instantly. The paywall (unlimited outfits, calendar integration) is placed after the habit is formed.
 
-**Why we include NRR (118%)?**
-Net Revenue Retention above 100% is the single best proof of product-market fit in SaaS. It means existing customers grow faster than you lose them. This is more convincing than a high growth rate achieved through expensive customer acquisition.
+**Why ARPU is $7.99/month?**
+This is the B2C equivalent of B2B ACV. It is specific, affordable for the target demographic, and positioned below competitors (personal stylists at $200+/hour). B2C investors mentally benchmark this against Netflix ($15), Spotify ($10), and Calm ($15).
 
-**Why the pricing model is simple?**
-"$500/mo base + $25 per connected entity" can be understood in 3 seconds. Complex pricing (tiered plans with 10 features each) signals that the founder has not yet figured out what customers actually value.
+**Why blended CAC is $18?**
+B2C CAC is dramatically lower than B2B ($18 vs. $4,200). The investor wants to know this is sustainable at scale. Showing CAC by channel (Slide 10) proves the founder understands acquisition economics.
+
+**Why gross margin is 85%?**
+Consumer SaaS with AI inference costs can still achieve high margins because compute is amortized across millions of users. This is higher than most B2B SaaS (typically 75–80%) because there are no customer success or implementation costs.
 
 ---
 
 ### Slide 7: Traction
-**"Revenue grew 4× in 12 months"**
+**"145K MAU with 68% organic acquisition"**
 
-**Why this is the most important slide?**
-Every other slide is a promise. This slide is proof. In 2026, Seed investors increasingly expect $500K–$1.5M ARR. Pre-revenue pitches are still possible but require extraordinary evidence of demand (waitlists, LOIs, deep qualitative research).
+**Why MAU, not ARR, leads the traction slide?**
+In B2C, MAU is the primary health metric. Revenue is secondary until the business reaches significant scale. A B2C investor will scrutinize engagement before monetization.
 
-**Why we include both logo retention and NRR?**
-Logo retention (100%) shows customers do not churn. NRR (118%) shows they expand. Together, they prove the product has both stickiness and growth potential within the existing base.
+**Why Day-30 retention (28%) is included?**
+B2C investors look at retention curves, not single numbers. Day-1, Day-7, and Day-30 retention reveal whether the product is a novelty or a habit. 28% Day-30 is solid for a lifestyle app.
 
-**Why we name specific customers (Segment, Notion, Figma)?**
-Named logos create social proof, even when they are pilots. Investors know that getting a pilot at a recognizable company is hard. It signals sales capability and product quality.
+**Why "2.1M outfits generated" matters?**
+This is a **leading indicator** of engagement and product-market fit. It proves users are actively using the core feature, not just opening the app. It also feeds the network effect moat (Slide 9).
 
-**Why the sales cycle (21 days) matters?**
-A short sales cycle ($21 days) indicates product-led motion or low-friction buying. This is attractive because it means growth can scale without proportionally scaling an expensive enterprise sales team.
+**Why App Store ratings are on the traction slide?**
+In B2B, named customer logos provide social proof. In B2C, App Store ratings serve the same function. 4.6★ with 28K reviews is hard to fake and signals genuine user satisfaction.
+
+**Why "68% organic" is the hero metric?**
+Organic acquisition percentage is the B2C equivalent of B2B's "sales cycle length." High organic % means the product has viral loops or strong word-of-mouth. It signals that paid acquisition is an accelerator, not a crutch.
 
 ---
 
 ### Slide 8: Product Demo
-**"Watch how FlowState closes a month-end in 90 seconds"**
+**"See how Mira plans your entire week in under 60 seconds"**
 
-**Why 90 seconds?**
-Attention drops sharply after 90 seconds in a pitch setting. A 5-minute feature tour loses the room. A 90-second demo that shows the transformation (messy spreadsheets → clean dashboard) creates an emotional impact.
+**Why 60 seconds, not 90?**
+Consumer attention spans are shorter than B2B buyers. A 60-second demo respects that. The script is designed to show emotional payoff, not utility: Snap wardrobe → AI suggests → Swipe to schedule → Share to social.
 
-**Why we focus on value, not features?**
-The demo script is "connect → reconcile → review → close," not "upload CSV → map fields → run algorithm → export report." The first narrative is about the customer's workflow. The second is about the product's buttons. Investors care about the workflow.
-
-**Why we mention a backup?**
-Live demos fail frequently. Mentioning a pre-recorded backup signals professionalism and reduces anxiety for both the founder and the investor. It also subtly communicates: "we are prepared."
+**Why "share to social" is the final step?**
+This subtly introduces the viral loop (Slide 10) without explicitly stating it. Investors who understand consumer products will recognize that social sharing is both a feature and an acquisition channel.
 
 ---
 
 ### Slide 9: Competition
-**"The only AI-native solution that integrates in minutes, not months"**
+**"The only wardrobe app that plans outfits instead of just cataloging clothes"**
 
-**Why we never claim "no competitors"?**
-Every problem has alternatives. If there are truly no competitors, the problem is either not real or not valuable. Claiming "no competitors" signals naivety or dishonesty — both are fatal to credibility.
+**Why the matrix axes are different from B2B?**
+B2B axes reflect enterprise tradeoffs (implementation speed, enterprise depth). B2C axes reflect user behavior:
+- **Catalog Only vs. Active Planning:** Most apps let you log clothes. Mira tells you what to wear.
+- **Low vs. High AI Personalization:** Pinterest suggests generic trends. Mira suggests based on your actual wardrobe.
 
-**Why the matrix uses real customer tradeoffs as axes?**
-Generic axes like "Quality vs. Price" allow any founder to place themselves in the top-right. Specific axes like "Implementation Speed vs. AI Automation" reflect actual buying decisions that customers make. They are harder to manipulate and more credible.
+**Why Pinterest and Instagram are included as competitors?**
+In B2C, the status quo is often "doing nothing" or using free alternatives. Pinterest and Instagram are indirect competitors because users already get outfit inspiration there. Acknowledging them shows market awareness.
 
-**Why we acknowledge competitor strengths?**
-"BlackLine dominates enterprise security" builds trust by showing we understand the market clearly. Pretending competitors are incompetent makes investors wonder what else we are misjudging.
-
-**Why the moat is described as a compounding loop?**
-"Proprietary AI trained on 40M+ labeled examples; improves with every customer" describes a network effect, not a static feature. Investors fund compounding advantages, not one-time technical tricks.
+**Why the moat is described as a data network effect?**
+"Proprietary garment compatibility engine trained on 2.1M user outfits" creates a compounding advantage. Each user improves the model for all users. This is the strongest type of B2C moat because it scales with adoption.
 
 ---
 
 ### Slide 10: Go-to-Market
-**"Product-led trials convert to paid at 34%"**
+**"Viral loop drives 68% organic; paid social scales the rest"**
 
-**Why GTM is presented as a system, not a list of channels?**
-A list of channels ("we do SEO, content, webinars, and paid ads") says nothing about economics or repeatability. A system with CAC per channel, conversion rates, and quota math proves the founder understands how money flows into the business.
+**Why there are no "inside sales reps"?**
+B2C does not have enterprise sales teams. Mentioning sales reps in a B2C deck is an immediate red flag. The GTM slide must reflect the actual acquisition engine: viral loops, paid social, and content.
 
-**Why we show CAC by channel?**
-Channel-level CAC reveals strategic thinking. A founder who knows that partnerships deliver $900 CAC vs. $7,200 for inside sales is a founder who can allocate capital intelligently.
+**Why TikTok is the primary paid channel?**
+TikTok Spark Ads are native and feel like content, not ads. For a visual product (fashion), TikTok is the highest-intent platform. The $14 CAC on TikTok vs. $22 on Meta proves channel optimization.
 
-**Why we include a content engine (newsletter)?**
-"The Close" newsletter with 12K subscribers driving 15% of inbound trials signals low-cost, compounding acquisition. It shows the team is building brand and community, not just running ads.
+**Why influencer partnerships are micro-influencers, not celebrities?**
+Micro-influencers (10K–100K followers) have higher engagement rates and lower cost per impression. "Closet cleanout + Mira setup" content is authentic and converts because it shows real usage.
+
+**Why the organic CAC is asterisked with an explanation?**
+B2C organic acquisition is not truly "free." The asterisked calculation (`$2 referral credit ÷ conversion rate`) shows intellectual honesty. Investors appreciate this transparency.
 
 ---
 
 ### Slide 11: Team
-**"Built by finance operators who have done this before"**
+**"Consumer product builders who know how to make apps go viral"**
 
-**Why team dominates at Seed stage?**
-At pre-seed and seed, investors are primarily betting on the founders. The product will change. The market will shift. The team's ability to navigate uncertainty is the constant.
+**Why the team emphasis is on consumer growth, not domain expertise?**
+At B2C seed stage, the team must prove they can build products that people love and share. Domain expertise in fashion is less important than proven ability to drive viral loops and retention.
 
-**Why each bio is quantified and relevant?**
-- "Former VP Finance at Stripe" — domain authority (lived the problem)
-- "Built banking pipelines processing $2B/day" — technical credibility at scale
-- "PhD ML, Stanford; 8 years at Google Research" — research depth and hiring magnetism
-- "Closed $15M in ARR at FloQast" — go-to-market execution in the exact same buyer persona
+**Why each bio focuses on scale and virality?**
+- **Leo Park (CEO):** TikTok PM who grew to 40M DAU — understands content-driven growth
+- **Sofia Reyes (CTO):** Pinterest ML engineer — built image recognition at scale
+- **Jake Okafor (Head of Growth):** Bumble growth lead — scaled 1M to 12M users via viral mechanics
+- **Maya Chen (Head of Brand):** Glossier creative director — built organic word-of-mouth into brand DNA
 
-Vague bios like "experienced entrepreneur" or "passionate about finance" are red flags. Specific, quantified accomplishments prove the person can do what the deck promises.
-
-**Why "Collective prior exits: 3" is on the slide?**
-Prior exits are the strongest signal that founders know how to build value and navigate an acquisition or IPO process. It is a shorthand that reduces investor risk perception.
+**Why "Collective consumer product experience: 100M+ users scaled" is the summary?**
+In B2C, the team's ability to reach millions of users is more impressive than prior exits. This signals the team knows how to operate at consumer scale.
 
 ---
 
 ### Slide 12: Financial Projections
-**"Path to $10M ARR in 36 months"**
+**"Path to 5M users and $50M revenue with improving unit economics"**
 
-**Why we show burn multiple improving?**
-In 2026, "growth at all costs" is dead. The burn multiple (net burn / net new ARR) is closely watched. A burn multiple that improves from 2.1× to 1.1× signals capital efficiency and operational discipline. This is more impressive than a pure hockey-stick revenue curve.
+**Why users lead the table, not revenue?**
+B2C is a volume game. Investors model revenue from user counts and ARPU. Showing MAU and premium user growth first lets the investor build their own revenue model.
 
-**Why the projections are aggressive but not fantasy?**
-$420K → $1.8M → $5.2M over 3 years is roughly 4× then 3×. This is aggressive but achievable if the go-to-market plan is executed. Projections that go $100K → $500K → $50M are dismissed as fantasy.
+**Why free-to-paid conversion is an explicit assumption?**
+7.6% → 10% free-to-paid is a critical B2C metric. It proves the onboarding and paywall strategy is improving. B2B investors look at expansion revenue; B2C investors look at conversion rate optimization.
 
-**Why assumptions are explicit?**
-"ACV grows from $15K to $18K via expansion modules" is a testable assumption. Investors will model their own scenarios. If the founder's assumptions are transparent, the investor can adjust them and still see a viable business. Hidden assumptions destroy trust.
+**Why burn multiple is still included?**
+Even in B2C, capital efficiency matters. A burn multiple improving from 2.8× to 0.9× means the business approaches self-sustainability. This is attractive because not all B2C apps achieve this.
 
 ---
 
 ### Slide 13: The Ask
-**"Raising $2.5M to reach $1.8M ARR and 180 customers"**
+**"Raising $3.5M to reach 680K MAU and $5.8M revenue"**
 
-**Why the amount is exact?**
-"Raising $2–3M" sounds like the founder has not done the math. "$2.5M" signals precision. It also implies the use-of-funds has been modeled to the dollar.
+**Why the amount is $3.5M (higher than B2B's $2.5M)?**
+B2C typically requires more capital upfront for paid acquisition and content creation. The $3.5M reflects the need to scale TikTok spend, influencer partnerships, and product development simultaneously.
 
-**Why use-of-funds buckets add to 100%?**
-Investors want to know where their money goes. Percentages that sum to 100% (45% product, 30% sales, 15% operations, 10% reserve) create confidence that the capital will be deployed intentionally.
+**Why the post-money is $18M?**
+B2C valuations are often higher than B2B at the same stage because the market is larger and the product is more scalable. $18M post on $5.8M projected revenue is roughly 3× forward revenue — reasonable for a high-growth consumer app.
 
-**Why milestones for the next round are concrete?**
-"$1.8M ARR, 180 customers, 2 non-founder reps closing independently, NetSuite partnership live, burn multiple below 1.5x" is a checklist. It gives the Series A investor a clear signal of what success looks like. Vague milestones like "scale the business" are meaningless.
+**Why milestones are user-centric, not revenue-centric?**
+680K MAU, 58K paying subscribers, 10% free-to-paid conversion, blended CAC below $15 — these are the metrics a B2C Series A investor will evaluate. Revenue is a lagging indicator of user health.
 
 ---
 
 ### Slide 14: Vision
-**"Every finance team deserves an AI colleague, not another spreadsheet"**
+**"A personal AI stylist for every person on earth who gets dressed in the morning"**
 
-**Why this slide answers "feature or company?"**
-The scariest question for an investor is: "Is this just a feature that QuickBooks will build in 6 months?" The vision slide shows a roadmap from reconciliation (today) to full close automation (next year) to the autonomous finance function (5 years). This proves it is a platform, not a point solution.
+**Why the vision is global and daily?**
+"Every person on earth who gets dressed in the morning" is a massive, relatable TAM. It frames the product as a daily utility, not a niche fashion tool.
 
-**Why the timeline is simple (Today → Next Year → 5 Years)?**
-Vision slides that are over-planned (20 bullet points across 10 quarters) look delusional. A simple three-stage arc shows ambition without pretending to predict the future in detail.
+**Why the roadmap includes marketplace and resale?**
+Today: outfit planner. Next year: wardrobe marketplace + rental + repair integrations. 5 years: operating system for personal fashion (buy, wear, resell, recycle).
+
+This answers "feature or company?" by showing Mira becomes the platform layer for circular fashion. It justifies the $18M valuation by revealing a much larger opportunity than subscription fees alone.
 
 ---
 
 ### Slide 15: Closing
-**"Let's help finance teams close faster"**
+**"Let's build the future of getting dressed"**
 
-**Why we end with energy, not a whimper?**
-The last slide is what the investor remembers while walking to their next meeting. "Let's help finance teams close faster" is active, optimistic, and mission-driven. A generic "Thank You" is forgettable.
+**Why the close is emotional and mission-driven?**
+B2C investors invest in missions that resonate culturally. "The future of getting dressed" is more memorable than "contact us for more information." It leaves the investor with a sense of possibility.
 
-**Why we mention appendices?**
-"Detailed financial model, cap table, competitive deep-dive, technical architecture" signals preparation. It tells the investor: "We have done the work. Ask us anything."
-
-**Why the next step is specific?**
-"Product demo for partners and associates" is a concrete action. "Let me know if you have questions" is passive and puts the burden on the investor. Great closers drive the process forward.
+**Why the appendices include "cohort retention analysis" and "influencer partnership pipeline"?**
+B2C investors will ask for retention curves and influencer strategy in diligence. Mentioning these appendices signals preparation and speeds up the process.
 
 ---
 
 ## 3. Design Decisions
 
-### Why a Dark Theme?
-Dark backgrounds signal **premium, serious, and confident**. In 2026, most pitch decks are still white-background corporate templates. A dark theme differentiates immediately. It also reduces eye strain during screen shares, which matters because 60%+ of initial reviews happen on phones or laptops between meetings.
+### Why the Same Visual System?
+The B2C deck uses the same dark theme, typography (Bodoni Moda + Outfit + JetBrains Mono), and interaction model as the B2B deck. This is intentional: the visual system is a **template**, not a brand. It demonstrates that the same high-quality presentation layer can serve both B2B and B2C narratives.
 
-The warm amber accent (`#d4a373`) was chosen over cold blue or aggressive red because:
-- Blue is the default for fintech and feels generic
-- Red signals warning or urgency, which is wrong for a trust-based product
-- Amber is warm, human, and associated with clarity and illumination
-
-### Why These Fonts?
-| Font | Role | Why It Was Chosen |
-|------|------|-------------------|
-| **Bodoni Moda** | Headlines | High-contrast serif with editorial authority. Signals "this is a serious, well-crafted product." Avoids the overused tech-startup sans-serif look. |
-| **Outfit** | Body text | Geometric sans-serif, highly legible at small sizes. Modern without being sterile. |
-| **JetBrains Mono** | Data, labels, metrics | Monospaced fonts signal precision and engineering credibility. Numbers align beautifully, which matters for financial slides. |
-
-### Why `z-index` + `visibility` Instead of `display: none`?
-The original implementation used `opacity: 0` and `pointer-events: none` to hide inactive slides, but forgot `z-index` management. This meant all 15 absolutely-positioned slides were stacked in DOM order, so Slide 15 rendered visually on top of Slide 1 even when Slide 1 had the `active` class.
-
-The fix:
-- `.slide` gets `z-index: 1; visibility: hidden`
-- `.slide.active` gets `z-index: 10; visibility: visible`
-- `visibility: hidden` prevents invisible slides from blocking clicks or intercepting scroll events
-- `z-index: 10` ensures the active slide always wins the stacking context
-
-This makes the deck robust against font loading race conditions, browser pre-rendering quirks, and CDN caching delays.
-
-### Why `clamp()` for Typography?
-`clamp(minimum, preferred, maximum)` allows text to scale fluidly between screen sizes. This is critical because investors review decks on:
-- 27-inch monitors (in-person pitch)
-- 13-inch laptops (Zoom share)
-- 6-inch phones (between meetings)
-
-Fixed font sizes break on at least one of these. `clamp()` ensures readability everywhere without manual breakpoints.
-
-### Why HTML Instead of Google Slides / PowerPoint?
-- **Version control:** Git tracks every change, who made it, and why
-- **Collaboration:** No merge conflicts from `.pptx` binary files
-- **Deployment:** Push to GitHub Pages and the deck is live instantly
-- **Analytics:** Can embed tracking to see which slides investors view
-- **Accessibility:** HTML is more accessible to screen readers than slide exports
-- **No vendor lock-in:** Not dependent on Google's or Microsoft's roadmap
+### What Changed in the Visuals?
+Nothing structural. The B2C deck reuses the CSS, animation timing, z-index stacking, and responsive breakpoints. The only differences are:
+- Content and metrics (users, not revenue)
+- Color accents remain warm amber (appropriate for fashion/lifestyle)
+- Demo placeholder reflects the B2C flow (Snap → Suggest → Swipe → Share)
 
 ---
 
-## 4. 2026 Investor Context
+## 4. 2026 B2C Investor Context
 
-### Metric Inflation
-What was considered Series A traction in 2022 is now the baseline for Seed. The median seed round in 2026 is ~$4M at ~$20M post-money. Many Seed investors now expect $500K–$1.5M ARR. This deck's $420K ARR is at the lower end but defensible because of the 142% growth rate and best-in-class unit economics.
+### The B2C Funding Environment in 2026
+B2C apps are facing renewed investor interest because:
+- **AI enables personalization at scale** previously impossible
+- **TikTok has created a new acquisition channel** with CACs 30–50% lower than Meta
+- **Sustainability is a purchasing driver** for Gen Z, opening new product categories
 
-### AI Has Reset Expectations
-Because AI makes product building cheaper and faster, investors have shifted from "What have you built?" to "How well is it working, and can it repeat?" If you are not building AI, you need a strong answer for why AI won't replicate your solution. FlowState's moat slide addresses this directly.
+However, investors are cautious about:
+- **Retention cliffs:** Many AI apps see high initial engagement followed by steep Day-30 drops
+- **Platform risk:** Building on TikTok or Instagram is risky if algorithm changes reduce organic reach
+- **Monetization timing:** Free-to-paid conversion below 5% at 6 months is a red flag
 
-### "Velocity Per Dollar" Is the New Mantra
-Burn multiple (net burn / net new ARR) is now more important than raw growth rate. Best-in-class is below 1.5×. This deck shows the burn multiple improving from 2.1× to 1.1×, which signals that the founder understands capital efficiency.
+### What B2C Investors Are Asking in 2026
+1. "What is your Day-1 / Day-7 / Day-30 retention curve?"
+2. "What is your viral coefficient (K-factor)?"
+3. "How much of your growth is organic vs. paid?"
+4. "What is your CAC on TikTok vs. Meta vs. influencer?"
+5. "Why won't Instagram or Pinterest build this?"
 
-### Team Slides Get 40% More Attention
-Because AI makes building easier, investors in 2026 care more about WHO is building it than in previous years. The team slide is no longer an afterthought — it is a primary decision factor. This deck dedicates a full slide with quantified, relevant bios.
+This deck answers all five questions explicitly.
 
 ---
 
@@ -330,9 +305,9 @@ Because AI makes building easier, investors in 2026 care more about WHO is build
 
 | File | Description |
 |------|-------------|
-| `index.html` | Interactive HTML presentation. Open in browser or serve via `python3 -m http.server 8000`. Navigate with arrow keys, click, or swipe. |
-| `investor_pitch_deck_example.md` | Full slide-by-slide breakdown with design tips and content explanations (legacy version). |
+| `index.html` | Interactive HTML presentation (B2C version — Mira). Open in browser or serve locally. |
+| `investor_pitch_deck_b2c.html` | Backup filename for the B2C presentation. |
 
 ---
 
-*FlowState — Confidential*
+*Mira — Confidential*
